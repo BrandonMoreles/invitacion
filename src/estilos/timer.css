@@ -1,0 +1,21 @@
+.divNumbers{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+   
+}
+.numbers{
+    margin: 0 40px 0 40px;
+    display:flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 80px;
+
+}
+.buho{
+    width: 500px;
+}

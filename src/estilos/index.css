@@ -1,0 +1,64 @@
+.container {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* Establecer la altura del contenedor para ocupar toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y:scroll ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+h2{
+    margin: 0%;
+    display: inline;
+    font-size: 10vh;
+    font-family: 'Dancing Script', cursive;
+    padding: 10px;
+}
+.add{
+    font-size: 7vh;
+    border-radius: 50px;
+    background-color: #72cc3399;
+    min-width: 80px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilos para la barra de desplazamiento en navegadores WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del fondo del "pulgador" (el botón que se puede arrastrar) */
+    border-radius: 5px; /* Borde redondeado del "pulgador" */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color del fondo del "pulgador" al pasar el cursor sobre él */
+  }
+  
+  /* Estilos para la barra de desplazamiento en navegadores Firefox */
+  /* Ten en cuenta que los estilos personalizados de Firefox solo están disponibles en su versión para Windows. */
+  /* En otros sistemas operativos, la barra de desplazamiento usará los estilos del sistema. */
+  /* Además, para ver estos estilos en Firefox, asegúrate de que el usuario tenga habilitada la opción "ui.prefersReducedMotion" en about:config. */
+  * {
+    scrollbar-color: #888 #f1f1f1; /* Color del fondo y "pulgador" de la barra de desplazamiento */
+  }
+  
+  *::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del fondo del "pulgador" */
+    border-radius: 5px; /* Borde redondeado del "pulgador" */
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color del fondo del "pulgador" al pasar el cursor sobre él */
+  }

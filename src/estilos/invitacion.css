@@ -1,0 +1,108 @@
+.invitacion{
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* Establecer la altura del contenedor para ocupar toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y:scroll ;
+}
+/* Estilos para la barra de desplazamiento en navegadores WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del fondo del "pulgador" (el botón que se puede arrastrar) */
+    border-radius: 5px; /* Borde redondeado del "pulgador" */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color del fondo del "pulgador" al pasar el cursor sobre él */
+  }
+  
+  /* Estilos para la barra de desplazamiento en navegadores Firefox */
+  /* Ten en cuenta que los estilos personalizados de Firefox solo están disponibles en su versión para Windows. */
+  /* En otros sistemas operativos, la barra de desplazamiento usará los estilos del sistema. */
+  /* Además, para ver estos estilos en Firefox, asegúrate de que el usuario tenga habilitada la opción "ui.prefersReducedMotion" en about:config. */
+  * {
+    scrollbar-color: #888 #f1f1f1; /* Color del fondo y "pulgador" de la barra de desplazamiento */
+  }
+  
+  *::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del fondo del "pulgador" */
+    border-radius: 5px; /* Borde redondeado del "pulgador" */
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color del fondo del "pulgador" al pasar el cursor sobre él */
+  }
+.divImg{
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.parrafo{
+    background-color: #DEC4C488;
+    padding: 20px;
+    border:solid 5px #000;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 200px;
+}
+.parrafo p{
+    font-size: 140%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lugarContain{
+    border:solid 7px #000;
+    border-radius: 20px;
+    background-color: #dddddd88;
+    width: 60%;
+    padding:25px ;
+    margin-bottom: 50px;
+}
+.lugarContain a{
+    background-color: #C8B0AE;
+    color: #000;
+    padding: 10px 20px;
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border:solid 3px #000;
+}
+.divQr{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:30px;
+    background: linear-gradient(to bottom , #C9A8A799, #F6C1B6);
+    padding: 20px;
+    border-radius: 20px;
+    border:solid 4px #000;
+}
+.divQr img{
+    margin: 25px 0 60px 0;
+}
+.divQr p{
+    font-size: 50px;
+        
+}
+.confirm{
+    font-size: 40px;
+}

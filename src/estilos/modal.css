@@ -1,0 +1,100 @@
+.contenedor {
+    position: absolute;
+    border: solid #000 5px;
+    border-radius: 20px;
+    top: 10px;
+    width: 50%;
+    height: 50vh;
+    background-image: url('../img/fonso2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;/* Establecer la altura del contenedor para ocupar toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contenedor>p{
+    font-size: 40px;
+    margin: none;
+}
+#nombre{
+    all: unset;
+    width: 300px;
+    padding: 4px;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    background: linear-gradient(to right, #ff149377, #8a2be277);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 20px;
+}
+#nombre:focus {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  }
+#nombre::placeholder{
+    color: #000;
+}
+.cantidad{
+    color: #000;
+    background: linear-gradient(to right, #ff149377, #8a2be277);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+/* Estilos para el input #cantidad de tipo number */
+#cantidad {
+    width: 50px;
+    padding: 10px;
+    border: 2px solid #66b2ff;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: #fff5;
+    margin-left: 10px;
+}
+.divButton{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+
+}
+/* Estilos para el botón de Cancelar */
+.cancelar {
+    background-color: #ff1493; /* Rosa intenso, combina con el fondo */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .cancelar:hover {
+    background-color: #ff0080; /* Rosa más oscuro al hacer hover, combina con el fondo */
+  }
+  
+  /* Estilos para el botón de Aceptar */
+  .aceptar {
+    background-color: #8a2be2; /* Púrpura, combina con el fondo */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .aceptar:hover {
+    background-color: #6600cc; /* Púrpura más oscuro al hacer hover, combina con el fondo */
+  }
+  
