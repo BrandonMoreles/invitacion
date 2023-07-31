@@ -1,14 +1,22 @@
+// RouterPrincipal.js
 import React from 'react';
-import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Home from "../Home" 
 import Invitacion from "../Invitacion.js";
 
 export const RouterPrincipal = () => {
   return (
-    <BrowserRouter >
+    <BrowserRouter>
       <Routes>
-        <Route path='/invitacion' element={<Home/>} />
-        <Route path='/invitacion/*' element={<Invitacion/>} />
+        {/* Ruta de inicio */}
+        <Route path='/' element={<Home />} />
+        
+        {/* Ruta de Invitacion */}
+        <Route path='/invitacion' element={<Invitacion />}>
+      
+        </Route>
+        
+        {/* ... otras rutas principales ... */}
       </Routes>
     </BrowserRouter>
   );
