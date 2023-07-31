@@ -37,12 +37,13 @@ const Invitacion = () => {
       <p className='parrafo'>Te invito a que me acompañes en la celebracion de este logro, el dia <p>25/08/2023</p></p>
       <CountdownTimer />
       <div className='lugarContain'><img src={Pergamino} alt="Pergamino" />
-      <p className='ubi'>
-      EL lugar sera</p>
-      <p className='lugar'>Terraza boli</p>
-      <p className='dir'>Fraccionamiento rinconada de coyula, Coyula 45410, Tonala Jal</p>
-      <a>Click aqui para ver la ubicacion</a></div>
-      <div className='divQr'>
+         <p className='ubi'>
+        EL lugar sera</p>
+        <p className='lugar'>-- Terraza boli --</p>
+        <p className='dir'>Fraccionamiento rinconada de coyula, Coyula 45410, Tonala Jal</p>
+        <a href='https://www.google.com/maps/place/Terraza+boli/@20.6659758,-103.2329323,15.25z/data=!4m6!3m5!1s0x8428b5d05b495647:0xc0dbd1f02f230d8c!8m2!3d20.6657385!4d-103.2229078!16s%2Fg%2F11swyn8_kb?entry=ttu'>Click aqui para ver la ubicacion</a>
+      </div>
+        <div className='divQr'>
         <p>Esta es tu invitacion, el codigo QR que se encuentra abajo es valida para {serverData?.cantidad} personas</p>
         <img className='buho' src={Buho} alt="Buho" />
         {serverData && (
@@ -60,8 +61,8 @@ const Invitacion = () => {
         )}
       </div>
         <p className='confirm'>Por favor confirma su asistencia en la siguiente liga</p>
-        <a href='https://www.facebook.com'>
-    <img className='buho' src={w} alt="Buho" />
+        <a className='whatsA' href=' https://w.app/lc7hwK '>
+       <img className='whats' src={whatsapp} alt="Buho" />
   </a> 
 
     </div>
