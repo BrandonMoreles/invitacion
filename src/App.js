@@ -1,15 +1,15 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import { HashRouter } from 'react-router-dom'; // Cambio de BrowserRouter a HashRouter
 import { RouterPrincipal } from './components/routers/RouterPrincipal';
 
 function App() {
   return (
     <div className="App">
-      {/* Envuelve RouterPrincipal dentro de BrowserRouter */}
-      <BrowserRouter>
+      {/* Envuelve RouterPrincipal dentro de HashRouter */}
+      <HashRouter>
         <RouterPrincipal />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
