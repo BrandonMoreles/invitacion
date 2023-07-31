@@ -8,7 +8,7 @@ function App() {
   return (
     <Router basename='/invite'>
       <Routes >
-        <Route exact path="/" component={Home} />
+        <Route path="/" component={Home} />
         <Route path="/invitacion/*" component={Invitacion} />
       </Routes>
     </Router>
