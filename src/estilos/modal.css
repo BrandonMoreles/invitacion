@@ -3,7 +3,7 @@
     border: solid #000 5px;
     border-radius: 20px;
     top: 10px;
-    width: 50%;
+    width: 100%;
     height: 50vh;
     background-image: url('../img/fonso2.jpg');
     background-size: cover;
@@ -20,7 +20,7 @@
 }
 #nombre{
     all: unset;
-    width: 300px;
+    width: 100%;
     padding: 4px;
     text-align: center;
     height: 30px;
@@ -61,7 +61,7 @@
     margin-left: 10px;
 }
 .divButton{
-    width: 300px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 

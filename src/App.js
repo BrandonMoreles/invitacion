@@ -1,10 +1,15 @@
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Home from "./components/Home.js" 
 import { RouterPrincipal } from './components/routers/RouterPrincipal';
+
 function App() {
   return (
     <div className="App">
-      <Home/>
+      {/* Envuelve RouterPrincipal dentro de BrowserRouter */}
+      <BrowserRouter>
+        <RouterPrincipal />
+      </BrowserRouter>
     </div>
   );
 }
