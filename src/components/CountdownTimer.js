@@ -37,7 +37,7 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div>
+    <div className='timerContain'>
       <h1>Faltan</h1>
       <div className='divNumbers'>
         <p className='numbers'>Días: <p>{timeRemaining.days}</p></p>

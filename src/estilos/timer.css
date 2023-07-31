@@ -1,19 +1,26 @@
+.timerContain{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
 .divNumbers{
     display: flex;
-    width: 100%;
-    justify-content: space-around;
-   
+    text-align: center;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 3vh;
 }
 .numbers{
-    margin: 0 40px 0 40px;
+    width: auto;
+    text-align: center;
     display:flex;
     flex-direction: column;
-    font-size: 50px;
+    font-size: 3vh;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1{
-    font-size: 80px;
+    font-size: 6vh;
 
 }
 .buho{
