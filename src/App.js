@@ -1,17 +1,20 @@
 import React from 'react';
 import './App.css';
-import { HashRouter } from 'react-router-dom'; // Cambio de BrowserRouter a HashRouter
-import { RouterPrincipal } from './components/routers/RouterPrincipal';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch } from '@mui/material';
+import Home from "../src/components/Home.js"
+import Invitacion from "../src/components/Invitacion.js"
 
 function App() {
   return (
-    <div className="App">
-      {/* Envuelve RouterPrincipal dentro de HashRouter */}
-      <HashRouter>
-        <RouterPrincipal />
-      </HashRouter>
-    </div>
-  );
+
+      <Router basename='https://brandonmoreles.github.io/invite/'>
+        <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/invitacion/*" component={Invitacion} />
+        </Switch>
+      </Router>  
+      );
 }
 
 export default App;
