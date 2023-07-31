@@ -6,8 +6,8 @@ import Invitacion from "../src/components/Invitacion.js"
 
 function App() {
   return (
-    <Router>
-      <Routes>
+    <Router basename='/invite'>
+      <Routes >
         <Route exact path="/" component={Home} />
         <Route path="/invitacion/*" component={Invitacion} />
       </Routes>
