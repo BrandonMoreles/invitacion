@@ -39,7 +39,7 @@ const Invitacion = () => {
       <div className='lugarContain'><img src={Pergamino} alt="Pergamino" />
          <p className='ubi'>
         EL lugar sera</p>
-        <p className='lugar'>- Terraza boli -</p>
+        <p className='lugar'>Terraza Boli</p>
         <p className='dir'>Fraccionamiento rinconada de coyula, Coyula 45410, Tonala Jal</p>
         <a href='https://www.google.com/maps/place/Terraza+boli/@20.6659758,-103.2329323,15.25z/data=!4m6!3m5!1s0x8428b5d05b495647:0xc0dbd1f02f230d8c!8m2!3d20.6657385!4d-103.2229078!16s%2Fg%2F11swyn8_kb?entry=ttu'>Click aqui para ver la ubicacion</a>
       </div>

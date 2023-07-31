@@ -119,14 +119,14 @@
     padding: 10%;
 }
 .ubi{
-  font-size: 4vh;
+  font-size: 3vh;
 }
 .lugar{
-  font-size: 7vh;
+  font-size: 6vh;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .dir{
-  font-size: 4vh;
+  font-size: 3vh;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .whats{
@@ -152,4 +152,7 @@
 .codeDress h3{
   font-size: 5vh;
 
+}
+.lugarContain a{
+  font-size: 2vw;
 }
