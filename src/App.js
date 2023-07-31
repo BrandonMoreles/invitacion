@@ -4,7 +4,7 @@ import { RouterPrincipal } from './components/routers/RouterPrincipal';
 function App() {
   return (
     <div className="App">
-      <RouterPrincipal/>
+      <Home/>
     </div>
   );
 }
