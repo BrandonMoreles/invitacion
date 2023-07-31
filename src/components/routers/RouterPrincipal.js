@@ -12,9 +12,7 @@ export const RouterPrincipal = () => {
         <Route path='/' element={<Home />} />
         
         {/* Ruta de Invitacion */}
-        <Route path='/invitacion' element={<Invitacion />}>
-      
-        </Route>
+        <Route path='/invitacion/*' element={<Invitacion />} />
         
         {/* ... otras rutas principales ... */}
       </Routes>
