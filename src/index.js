@@ -7,9 +7,9 @@ import Invitacion from "./components/Invitacion.js"
 import { createHashRouter, RouterProvider } from 'react-router-dom'; // Cambio de BrowserRouter a HashRouter
 const router= createHashRouter([
    { path:'/',
-    element:Home},
+    element:<Home/>},
     {path:"/invitacion",
-  element:Invitacion}
+  element:<Invitacion/>}
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

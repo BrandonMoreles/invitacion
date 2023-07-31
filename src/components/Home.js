@@ -5,7 +5,7 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import Modal from "./Modal.js";
 import CardsInvite from './CardsInvite';
 
-const Index = () => {
+const Home = () => {
   const [modal, setModal] = useState(false);
   const [serverData, setServerData] = useState(null);
 
@@ -39,7 +39,7 @@ const Index = () => {
 
   return (
     <div className='container'>
-      {modal ? <Modal cerrarModal={toggleModal} /> : ""}
+      {modal ? <Modal cerrarModal={toggleModal} /> : null}
       <h2>Bienvenida Ishah</h2>
       <h5 className='add'><FontAwesomeIcon icon={faPlus} onClick={toggleModal} /></h5>
 
@@ -55,4 +55,4 @@ const Index = () => {
   );
 }
 
-export default Index;
+export default Home;
