@@ -30,9 +30,9 @@ const Invitacion = () => {
   return (
     <div className='invitacion'>
       <div className='divImg'>
-        <h3>Graduacion en honor a</h3>
+        <h3>Graduacion en honor a la</h3>
         <img src={Ishah} className='Ishah' alt="Ishah" />
-        <h2>ISHAH CHAVEZ</h2>
+        <h2>LIC EN PEDAGOGIA ISHAH CHAVEZ</h2>
       </div>
       <p className='parrafo'>Te invito a que me acompañes en la celebracion de este logro, el dia <p>25/08/2023</p></p>
       <CountdownTimer />
