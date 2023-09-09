@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import Home from "./components/Home.js"
 import Invitacion from "./components/Invitacion.js"
 import { createHashRouter, RouterProvider } from 'react-router-dom'; // Cambio de BrowserRouter a HashRouter
 const router= createHashRouter([
    { path:'/',
-    element:<Home/>},
+    element:<Invitacion/>},
     {path:"/invitacion",
   element:<Invitacion/>}
 ])
